@@ -5,19 +5,22 @@
 
 using namespace std;
 
-/*vector<string> input(vector<string> &array1){
+vector<string> input(){
     string s;
-    //vector<string> array();
+    vector<string> array;
     ifstream file("VanaLeva.txt");
-    while(getline(file, s)){
-        array1.push_back(s);
-        cout << s;
+    if(file.is_open()){
+            cout << "Dqwdwq";
+        while(getline(file, s)){
+            array.push_back(s) ;
+            //cout << s;
 
 
+        }
     }
-    cout << array1[0];
     file.close();
-}*/
+    return array;
+}
 void pupunt(){
 
 }
@@ -26,8 +29,8 @@ void mumunt(){}
 void bubunt(){}
 int main()
 {
-    /*vector<string> array  =input(array);
-    cout << array[0];*/
+    vector<string> array  =input();
+    cout << array.size();
 
     pupunt();
     mumunt();
