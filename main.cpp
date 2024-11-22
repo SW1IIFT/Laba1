@@ -23,8 +23,8 @@ void mumunt(){}
 void bubunt(){}
 int main()
 {
-    /*vector<string> &array  =input(&array);
-    cout << array.size();*/
+    //vector<string> &array  =input(&array);
+    cout << array.size();
 
     pupunt();
     mumunt();
